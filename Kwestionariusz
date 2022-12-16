@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> KwestionariuszOsobowy </title>
+</head>
+<body>
+    <h1 style="text-align: center; margin-bottom: 40px;"> Kwestionariusz osobowy: </h1>
+    <form>
+        <fieldset style="width: 400px; margin-left: auto; margin-right: auto;">
+            <legend>  Kwestionariusz Osobowy: </legend>
+            <label for="imie"> Imie: </label>
+            <input type="text" name="imie" placeholder="Wpisz imie" style="margin: 10px;"> <br>
+            <label for="nazwisko"> Nazwisko: </label>
+            <input type="text" name="nazwisko" placeholder="Wpisz nazwisko" style="margin: 10px;" > <br>
+            <label for="email"> Email: </label>
+            <input type="email" name="email" placeholder="Wpisz adres email" style="margin: 10px;"> <br>
+            <label for="numerid"> Wpisz swój numer id: </label>
+            <input type="number" name="munerid"> <br>
+            <label for="data"> Zazacz dzisiejszą datę: </label>
+            <input type="date" name="data" style="margin: 10px;"> <br>
+            <label for="wejwyj"> Wchodzisz czy wychodzisz: </label> <br>
+            <input type="radio" name="wejwyj" id="wejscie" style="margin: 10px; display: inline-block">
+            <label for="wejscie"> Wchodzę </label> <br>
+            <input type="radio" name="wejwyj" id="wyjscie" style="margin: 10px; display: inline-block;">
+            <label for="wyjscie"> Wychodzę </label> <br>
+            <input type="button" value="Dalej" >
+        </fieldset>
+    </form>
+</body>
+</html>
